@@ -1,5 +1,5 @@
 {
-  "name": "bg-image",
+  "name": "angular-bg-image",
   "authors": [
     "Matheus Rufca <matheus.rufca@gmail.com>"
   ],
@@ -7,7 +7,7 @@
   "main": "",
   "keywords": "angular-bg-image bg-image background-image angular directive angularjs angular",
   "license": "MIT",
-  "homepage": "",
+  "homepage": "https://github.com/matheusrufca/angular-bg-image",
   "ignore": [
     "**/.*",
     "node_modules",
