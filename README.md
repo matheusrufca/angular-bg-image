@@ -6,14 +6,9 @@ bg-image is a directive to use CSS background-image attribute on elements.
 
 ## Install
 
-### NPM
-```
-npm install --save-dev angular-bg-image
-```
-
 ### Bower
 ```
-bower install --save-dev angular-bg-image
+bower install angular-bg-image --save 
 ```
 
 ### CDN
@@ -40,6 +35,7 @@ angular.module('app', ['mr']);
 
 Use the directive like
 
+###### HTML
 ```html
 <div bg-image="model.pictureUrl" class="preview"></div>
 ```
@@ -49,6 +45,7 @@ or
 <div bg-image="{{getPictureUrl()}}" class="preview"></div>
 ```
 
+###### Controller
 ```js
 angular.module('app', ['mr'])
   .controller('DemoCtrl', function($scope){
@@ -61,6 +58,8 @@ angular.module('app', ['mr'])
     };
   };
 ```
+
+##### View demo on [Plunker](https://embed.plnkr.co/hLwfPh9M1BOpGDDibnhA/)
 
 ## License
 
