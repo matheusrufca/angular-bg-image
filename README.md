@@ -8,11 +8,11 @@ bg-image is a directive to use CSS background-image attribute on elements.
 
 ### Bower
 ```
-bower install angular-bg-image --save 
+bower install angular-bg-image --save
 ```
 
 ### CDN
-```hmtl
+```html
 <script src="https://cdn.rawgit.com/matheusrufca/angular-bg-image/master/dist/angular-bg-image.js"></script>
 ```
 
