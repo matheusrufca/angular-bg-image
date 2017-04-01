@@ -43,14 +43,12 @@
         $scope.nicePicture = 'http://i.imgur.com/QXSzVmy.gif';
         $scope.pictureUrl = 'http://i.imgur.com/xbiHEMe.jpg';
 
-
         $scope.getNicePicture = function(){
           return $scope.nicePicture;
         };
 
         $scope.usageRaw = '<div bg-image="{{getNicePicture()}}"></div>';
         $scope.usageModel = '<div bg-image="pictureUrl"></div>';
-
       })
     })()
   </script>
