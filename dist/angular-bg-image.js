@@ -5,7 +5,7 @@
 	}
 
 	angular
-		.module('mr', [])
+		.module('mr-bgImage', [])
 		.directive('bgImage',
 			function() {
 				function applyBackgroundImage(element, url) {
