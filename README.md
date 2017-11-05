@@ -49,7 +49,7 @@ or
 ```js
 angular.module('app', ['mr'])
   .controller('DemoCtrl', function($scope){
-    $scope.model {
+    $scope.model = {
       pictureUrl = 'http://i.imgur.com/xbiHEMe.jpg'
     };
 
